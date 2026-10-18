@@ -1,0 +1,15 @@
+{
+  "name": "prism-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for GraphPad Prism on Windows: run .pzc scripts, read/write .pzfx, descriptive statistics",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "smoke": "node smoke.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "fast-xml-parser": "^4.5.0",
+    "zod": "^3.23.8"
+  }
+}
